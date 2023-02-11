@@ -13,7 +13,9 @@ function Index({ data }: { data: Weekinfo[] }) {
       </Head>
 
       {/* 顶部菜单预留区 */}
-      <div className='h-10'></div>
+      <div className='h-10 flex justify-center items-center text-white bg-slate-600'>
+        <p>本站仅作演示，不提供影视资源下载或播放服务。</p>
+      </div>
 
       {/* 页面头部 */}
       <div className='flex flex-col items-center relative mt-5'>
