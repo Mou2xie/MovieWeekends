@@ -45,7 +45,7 @@ function Index({ data }: { data: Weekinfo[] }) {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
 
   let data = [weekinfo1, weekinfo2];
 
